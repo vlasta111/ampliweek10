@@ -1,0 +1,28 @@
+
+.menu{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__footer{
+        &__img{
+            height: 40px;
+            width: 35px;
+            fill: #fff;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+    }
+
+    &__text{
+
+        p{
+            font-family: 'Open Sans Regular';
+            font-size: 15px;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #fff;
+        }
+    }
+}
